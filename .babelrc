@@ -1,0 +1,21 @@
+{
+  "presets": [
+    [
+      "@babel/preset-env",
+      {
+        "targets": {
+          "chrome": "58"
+        },
+        "modules": "commonjs",
+        "exclude": [
+          "transform-regenerator",
+          "transform-classes",
+          "transform-async-to-generator"
+        ]
+      }
+    ]
+  ],
+  "plugins": [
+    "@babel/plugin-syntax-dynamic-import"
+  ]
+}

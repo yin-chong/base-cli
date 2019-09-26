@@ -1,0 +1,63 @@
+{
+  "name": "baseproject",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "start": "vue-cli-service serve",
+    "build": "cross-env NODE_ENV=production vue-cli-service build",
+    "build:dev": "cross-env NODE_ENV=dev vue-cli-service build",
+    "build:test": "cross-env NODE_ENV=test vue-cli-service build",
+    "lint": "standard -v --parser babel-eslint \"src/**/*.js\"",
+    "lint:fix": "standard --parser babel-eslint --fix \"src/**/*.js\""
+  },
+  "dependencies": {
+    "core-js": "^2.6.5",
+    "vue": "^2.6.10",
+    "vue-router": "^3.0.1",
+    "vuex": "^3.1.0",
+    "qs": "^6.7.0",
+    "axios": "^0.19.0"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^3.9.0",
+    "@vue/cli-plugin-eslint": "^3.9.0",
+    "@vue/cli-service": "^3.9.0",
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.16.0",
+    "eslint-plugin-vue": "^5.0.0",
+    "vue-template-compiler": "^2.6.10",
+    "cross-env": "^5.2.0",
+    "sass-loader": "^6.0.6",
+    "standard": "^12.0.1",
+    "node-sass": "^4.12.0",
+    "@babel/core": "7.5.0",
+    "@babel/plugin-syntax-dynamic-import": "^7.2.0",
+    "@babel/preset-stage-2": "^7.0.0-beta.54",
+    "@vue-materials/basic-container": "^1.0.0",
+    "@vue/eslint-config-airbnb": "^3.0.5",
+    "babel-core": "^7.0.0-bridge.0"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended"
+    ],
+    "rules": {},
+    "parserOptions": {
+      "parser": "babel-eslint"
+    }
+  },
+  "postcss": {
+    "plugins": {
+      "autoprefixer": {}
+    }
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions"
+  ]
+}
