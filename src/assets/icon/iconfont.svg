@@ -1,0 +1,29 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" >
+<!--
+2013-9-30: Created.
+-->
+<svg>
+<metadata>
+Created by iconfont
+</metadata>
+<defs>
+
+<font id="iconfont" horiz-adv-x="1024" >
+  <font-face
+    font-family="iconfont"
+    font-weight="500"
+    font-stretch="normal"
+    units-per-em="1024"
+    ascent="896"
+    descent="-128"
+  />
+    <missing-glyph />
+    
+    <glyph glyph-name="taikang" unicode="&#58947;" d="M524.3001575 864L32 388.09305562l106.67133094-114.85744218L647.38569219 749.12156719 524.3001575 864zM745.84992125 658.86443906l-106.67133094-106.65034031 287.18558625-270.79237406L1024.82840656 388.09305562l-278.97848531 270.77138344zM540.71436031 470.14308187L237.13556094 182.97848531l295.39268812-278.97848531 295.37169844 278.97848531-287.18558719 287.16459656z"  horiz-adv-x="1059" />
+
+    
+
+
+  </font>
+</defs></svg>

@@ -1,8 +1,12 @@
-import { Dashboard } from '@/pages/Dashboard'
+import Menu from '@/pages/Menu'
 
 export default [
   {
     path: '*',
-    component: Dashboard
+    redirect: 'Menu'
+  },
+  {
+    path: '/Menu',
+    component: Menu
   }
 ]

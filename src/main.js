@@ -4,8 +4,16 @@ import router from './router'
 import App from './App.vue'
 import processApiConfig from './api/api'
 import apiConfig from './api/apiConfig/apiConfig'
+import ElementUI from 'element-ui'
+import 'element-ui/lib/theme-chalk/index.css'
+import * as components from '@/components'
 
 Vue.prototype.$api = processApiConfig(apiConfig)
+
+Vue.use(ElementUI)
+Object.values(components).forEach(compItem => {
+  Vue.component(compItem.name, { ...compItem })
+})
 
 Vue.config.productionTip = false
 
