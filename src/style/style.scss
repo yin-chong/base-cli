@@ -1,0 +1,37 @@
+@charset 'utf-8';
+@import 'common';
+@import '_config';
+* {
+    margin: 0;
+    padding: 0;
+}
+html {
+    width: 100vm;
+    height: 100vh;
+    box-sizing: border-box;
+    font-family: PingFang-SC-Medium;
+    line-height: 1;
+
+    body, #app {
+        height: 100vh;
+    }
+}
+.card {
+    width: toRem(714);
+    margin: 0 auto toRem(23);
+    background-color: #fff;
+	box-shadow: toRem(.7) toRem(10) toRem(10) 0
+        rgba(172, 172, 172, 0.14);
+    border: 0;
+	border-radius: toRem(8);
+}
+
+/* 底部固定按钮 */
+.bottom {
+    width: 100%;
+    background-color: #fff;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: 90;
+}

@@ -5,4 +5,3 @@ export const SHORT_CACHE = window.sessionStorage
 // token shortTIME short
 export const TOKEN_CACHE = 'token'
 export const REFRESHTIME_CACHE = 'refreshTime' // token 刷新时间
-

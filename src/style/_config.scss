@@ -1,0 +1,15 @@
+$base-font: 50;
+
+@function toRem($px) {
+    @return $px / $base-font *1rem
+}
+
+;
+
+// 省略号
+@mixin ellipsis {
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    word-break: break-all;
+}

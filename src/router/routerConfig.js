@@ -7,6 +7,11 @@ export default [
   },
   {
     path: '/Menu',
-    component: Menu
+    component: Menu,
+    name: 'Menu',
+    meta: {
+      title: '首页',
+      index: 0
+    }
   }
 ]
